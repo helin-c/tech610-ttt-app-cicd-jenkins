@@ -1,3 +1,4 @@
+/*
 :root {
 	--bg: #031106;
 	--panel: #06200c;
@@ -5,6 +6,16 @@
 	--line-dim: #0f9b43;
 	--text: #b8ffce;
 	--text-strong: #e4ffe8;
+}
+*/
+
+:root {
+  --bg: #0b192c;
+  --panel: #1e3e62;
+  --line: #00d2ff;
+  --line-dim: #0084ff;
+  --text: #dff5ff;
+  --text-strong: #ffffff;
 }
 
 * {
