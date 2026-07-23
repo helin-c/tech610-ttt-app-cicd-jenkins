@@ -97,7 +97,7 @@ function getMongoFallbackMessage(reason) {
 }
 
 function getFooterVersionStamp() {
-	const configuredTimestamp = String(process.env.APP_FOOTER_TIMESTAMP || '23/07/2026 3:15pm').trim();
+	const configuredTimestamp = String(process.env.APP_FOOTER_TIMESTAMP || '23/07/2026 5:33pm').trim();
 	return configuredTimestamp ? `${APP_VERSION} ${configuredTimestamp}` : APP_VERSION;
 }
 
